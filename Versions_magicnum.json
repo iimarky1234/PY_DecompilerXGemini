@@ -1,0 +1,1227 @@
+[
+    {
+        "version": "Python 1.5",
+        "magic_number": 20121,
+        "description": ""
+    },
+    {
+        "version": "Python 1.5.1",
+        "magic_number": 20121,
+        "description": ""
+    },
+    {
+        "version": "Python 1.5.2",
+        "magic_number": 20121,
+        "description": ""
+    },
+    {
+        "version": "Python 1.6",
+        "magic_number": 50428,
+        "description": ""
+    },
+    {
+        "version": "Python 2.0",
+        "magic_number": 50823,
+        "description": ""
+    },
+    {
+        "version": "Python 2.0.1",
+        "magic_number": 50823,
+        "description": ""
+    },
+    {
+        "version": "Python 2.1",
+        "magic_number": 60202,
+        "description": ""
+    },
+    {
+        "version": "Python 2.1.1",
+        "magic_number": 60202,
+        "description": ""
+    },
+    {
+        "version": "Python 2.1.2",
+        "magic_number": 60202,
+        "description": ""
+    },
+    {
+        "version": "Python 2.2",
+        "magic_number": 60717,
+        "description": ""
+    },
+    {
+        "version": "Python 2.3a0",
+        "magic_number": 62011,
+        "description": ""
+    },
+    {
+        "version": "Python 2.3a0",
+        "magic_number": 62021,
+        "description": ""
+    },
+    {
+        "version": "Python 2.3a0",
+        "magic_number": 62011,
+        "description": "(!)"
+    },
+    {
+        "version": "Python 2.4a0",
+        "magic_number": 62041,
+        "description": ""
+    },
+    {
+        "version": "Python 2.4a3",
+        "magic_number": 62051,
+        "description": ""
+    },
+    {
+        "version": "Python 2.4b1",
+        "magic_number": 62061,
+        "description": ""
+    },
+    {
+        "version": "Python 2.5a0",
+        "magic_number": 62071,
+        "description": ""
+    },
+    {
+        "version": "Python 2.5a0",
+        "magic_number": 62081,
+        "description": "(ast-branch)"
+    },
+    {
+        "version": "Python 2.5a0",
+        "magic_number": 62091,
+        "description": "(with)"
+    },
+    {
+        "version": "Python 2.5a0",
+        "magic_number": 62092,
+        "description": "(changed WITH_CLEANUP opcode)"
+    },
+    {
+        "version": "Python 2.5b3",
+        "magic_number": 62101,
+        "description": "(fix wrong code: for x, in ...)"
+    },
+    {
+        "version": "Python 2.5b3",
+        "magic_number": 62111,
+        "description": "(fix wrong code: x += yield)"
+    },
+    {
+        "version": "Python 2.5c1",
+        "magic_number": 62121,
+        "description": "(fix wrong lnotab with for loops and storing constants that should have been removed)"
+    },
+    {
+        "version": "Python 2.5c2",
+        "magic_number": 62131,
+        "description": "(fix wrong code: for x, in ... in listcomp/genexp)"
+    },
+    {
+        "version": "Python 2.6a0",
+        "magic_number": 62151,
+        "description": "(peephole optimizations and STORE_MAP opcode)"
+    },
+    {
+        "version": "Python 2.6a1",
+        "magic_number": 62161,
+        "description": "(WITH_CLEANUP optimization)"
+    },
+    {
+        "version": "Python 2.7a0",
+        "magic_number": 62171,
+        "description": "(optimize list comprehensions/change LIST_APPEND)"
+    },
+    {
+        "version": "Python 2.7a0",
+        "magic_number": 62181,
+        "description": "(optimize conditional branches: introduce POP_JUMP_IF_FALSE and POP_JUMP_IF_TRUE)"
+    },
+    {
+        "version": "Python 2.7a0",
+        "magic_number": 62191,
+        "description": "(introduce SETUP_WITH)"
+    },
+    {
+        "version": "Python 2.7a0",
+        "magic_number": 62201,
+        "description": "(introduce BUILD_SET)"
+    },
+    {
+        "version": "Python 2.7a0",
+        "magic_number": 62211,
+        "description": "(introduce MAP_ADD and SET_ADD)"
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3000,
+        "description": ""
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3010,
+        "description": "(removed UNARY_CONVERT)"
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3020,
+        "description": "(added BUILD_SET)"
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3030,
+        "description": "(added keyword-only parameters)"
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3040,
+        "description": "(added signature annotations)"
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3050,
+        "description": "(print becomes a function)"
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3060,
+        "description": "(PEP 3115 metaclass syntax)"
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3061,
+        "description": "(string literals become unicode)"
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3071,
+        "description": "(PEP 3109 raise changes)"
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3081,
+        "description": "(PEP 3137 make __file__ and __name__ unicode)"
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3091,
+        "description": "(kill str8 interning)"
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3101,
+        "description": "(merge from 2.6a0, see 62151)"
+    },
+    {
+        "version": "Python 3000",
+        "magic_number": 3103,
+        "description": "(__file__ points to source file)"
+    },
+    {
+        "version": "Python 3.0a4",
+        "magic_number": 3111,
+        "description": "(WITH_CLEANUP optimization)."
+    },
+    {
+        "version": "Python 3.0b1",
+        "magic_number": 3131,
+        "description": "(lexical exception stacking, including POP_EXCEPT #3021)"
+    },
+    {
+        "version": "Python 3.1a1",
+        "magic_number": 3141,
+        "description": "(optimize list, set and dict comprehensions: change LIST_APPEND and SET_ADD, add MAP_ADD #2183)"
+    },
+    {
+        "version": "Python 3.1a1",
+        "magic_number": 3151,
+        "description": "(optimize conditional branches: introduce POP_JUMP_IF_FALSE and POP_JUMP_IF_TRUE #4715)"
+    },
+    {
+        "version": "Python 3.2a1",
+        "magic_number": 3160,
+        "description": "(add SETUP_WITH #6101)"
+    },
+    {
+        "version": "Python 3.2a2",
+        "magic_number": 3170,
+        "description": "(add DUP_TOP_TWO, remove DUP_TOPX and ROT_FOUR #9225)"
+    },
+    {
+        "version": "Python 3.2a3",
+        "magic_number": 3180,
+        "description": "(add DELETE_DEREF #4617)"
+    },
+    {
+        "version": "Python 3.3a1",
+        "magic_number": 3190,
+        "description": "(__class__ super closure changed)"
+    },
+    {
+        "version": "Python 3.3a1",
+        "magic_number": 3200,
+        "description": "(PEP 3155 __qualname__ added #13448)"
+    },
+    {
+        "version": "Python 3.3a1",
+        "magic_number": 3210,
+        "description": "(added size modulo 2**32 to the pyc header #13645)"
+    },
+    {
+        "version": "Python 3.3a2",
+        "magic_number": 3220,
+        "description": "(changed PEP 380 implementation #14230)"
+    },
+    {
+        "version": "Python 3.3a4",
+        "magic_number": 3230,
+        "description": "(revert changes to implicit __class__ closure #14857)"
+    },
+    {
+        "version": "Python 3.4a1",
+        "magic_number": 3250,
+        "description": "(evaluate positional default arguments before keyword-only defaults #16967)"
+    },
+    {
+        "version": "Python 3.4a1",
+        "magic_number": 3260,
+        "description": "(add LOAD_CLASSDEREF; allow locals of class to override free vars #17853)"
+    },
+    {
+        "version": "Python 3.4a1",
+        "magic_number": 3270,
+        "description": "(various tweaks to the __class__ closure #12370)"
+    },
+    {
+        "version": "Python 3.4a1",
+        "magic_number": 3280,
+        "description": "(remove implicit class argument)"
+    },
+    {
+        "version": "Python 3.4a4",
+        "magic_number": 3290,
+        "description": "(changes to __qualname__ computation #19301)"
+    },
+    {
+        "version": "Python 3.4a4",
+        "magic_number": 3300,
+        "description": "(more changes to __qualname__ computation #19301)"
+    },
+    {
+        "version": "Python 3.4rc2",
+        "magic_number": 3310,
+        "description": "(alter __qualname__ computation #20625)"
+    },
+    {
+        "version": "Python 3.5a1",
+        "magic_number": 3320,
+        "description": "(PEP 465: Matrix multiplication operator #21176)"
+    },
+    {
+        "version": "Python 3.5b1",
+        "magic_number": 3330,
+        "description": "(PEP 448: Additional Unpacking Generalizations #2292)"
+    },
+    {
+        "version": "Python 3.5b2",
+        "magic_number": 3340,
+        "description": "(fix dictionary display evaluation order #11205)"
+    },
+    {
+        "version": "Python 3.5b3",
+        "magic_number": 3350,
+        "description": "(add GET_YIELD_FROM_ITER opcode #24400)"
+    },
+    {
+        "version": "Python 3.5.2",
+        "magic_number": 3351,
+        "description": "(fix BUILD_MAP_UNPACK_WITH_CALL opcode #27286)"
+    },
+    {
+        "version": "Python 3.6a0",
+        "magic_number": 3360,
+        "description": "(add FORMAT_VALUE opcode #25483)"
+    },
+    {
+        "version": "Python 3.6a1",
+        "magic_number": 3361,
+        "description": "(lineno delta of code.co_lnotab becomes signed #26107)"
+    },
+    {
+        "version": "Python 3.6a2",
+        "magic_number": 3370,
+        "description": "(16 bit wordcode #26647)"
+    },
+    {
+        "version": "Python 3.6a2",
+        "magic_number": 3371,
+        "description": "(add BUILD_CONST_KEY_MAP opcode #27140)"
+    },
+    {
+        "version": "Python 3.6a2",
+        "magic_number": 3372,
+        "description": "(MAKE_FUNCTION simplification, remove MAKE_CLOSURE #27095)"
+    },
+    {
+        "version": "Python 3.6b1",
+        "magic_number": 3373,
+        "description": "(add BUILD_STRING opcode #27078)"
+    },
+    {
+        "version": "Python 3.6b1",
+        "magic_number": 3375,
+        "description": "(add SETUP_ANNOTATIONS and STORE_ANNOTATION opcodes #27985)"
+    },
+    {
+        "version": "Python 3.6b1",
+        "magic_number": 3376,
+        "description": "(simplify CALL_FUNCTIONs & BUILD_MAP_UNPACK_WITH_CALL #27213)"
+    },
+    {
+        "version": "Python 3.6b1",
+        "magic_number": 3377,
+        "description": "(set __class__ cell from type.__new__ #23722)"
+    },
+    {
+        "version": "Python 3.6b2",
+        "magic_number": 3378,
+        "description": "(add BUILD_TUPLE_UNPACK_WITH_CALL #28257)"
+    },
+    {
+        "version": "Python 3.6rc1",
+        "magic_number": 3379,
+        "description": "(more thorough __class__ validation #23722)"
+    },
+    {
+        "version": "Python 3.7a1",
+        "magic_number": 3390,
+        "description": "(add LOAD_METHOD and CALL_METHOD opcodes #26110)"
+    },
+    {
+        "version": "Python 3.7a2",
+        "magic_number": 3391,
+        "description": "(update GET_AITER #31709)"
+    },
+    {
+        "version": "Python 3.7a4",
+        "magic_number": 3392,
+        "description": "(PEP 552: Deterministic pycs #31650)"
+    },
+    {
+        "version": "Python 3.7b1",
+        "magic_number": 3393,
+        "description": "(remove STORE_ANNOTATION opcode #32550)"
+    },
+    {
+        "version": "Python 3.7b5",
+        "magic_number": 3394,
+        "description": "(restored docstring as the first stmt in the body; this might affected the first line number #32911)"
+    },
+    {
+        "version": "Python 3.8a1",
+        "magic_number": 3400,
+        "description": "(move frame block handling to compiler #17611)"
+    },
+    {
+        "version": "Python 3.8a1",
+        "magic_number": 3401,
+        "description": "(add END_ASYNC_FOR #33041)"
+    },
+    {
+        "version": "Python 3.8a1",
+        "magic_number": 3410,
+        "description": "(PEP570 Python Positional-Only Parameters #36540)"
+    },
+    {
+        "version": "Python 3.8b2",
+        "magic_number": 3411,
+        "description": "(Reverse evaluation order of key: value in dict comprehensions #35224)"
+    },
+    {
+        "version": "Python 3.8b2",
+        "magic_number": 3412,
+        "description": "(Swap the position of positional args and positional only args in ast.arguments #37593)"
+    },
+    {
+        "version": "Python 3.8b4",
+        "magic_number": 3413,
+        "description": "(Fix \"break\" and \"continue\" in \"finally\" #37830)"
+    },
+    {
+        "version": "Python 3.9a0",
+        "magic_number": 3420,
+        "description": "(add LOAD_ASSERTION_ERROR #34880)"
+    },
+    {
+        "version": "Python 3.9a0",
+        "magic_number": 3421,
+        "description": "(simplified bytecode for with blocks #32949)"
+    },
+    {
+        "version": "Python 3.9a0",
+        "magic_number": 3422,
+        "description": "(remove BEGIN_FINALLY, END_FINALLY, CALL_FINALLY, POP_FINALLY bytecodes #33387)"
+    },
+    {
+        "version": "Python 3.9a2",
+        "magic_number": 3423,
+        "description": "(add IS_OP, CONTAINS_OP and JUMP_IF_NOT_EXC_MATCH bytecodes #39156)"
+    },
+    {
+        "version": "Python 3.9a2",
+        "magic_number": 3424,
+        "description": "(simplify bytecodes for *value unpacking)"
+    },
+    {
+        "version": "Python 3.9a2",
+        "magic_number": 3425,
+        "description": "(simplify bytecodes for **value unpacking)"
+    },
+    {
+        "version": "Python 3.10a1",
+        "magic_number": 3430,
+        "description": "(Make 'annotations' future by default)"
+    },
+    {
+        "version": "Python 3.10a1",
+        "magic_number": 3431,
+        "description": "(New line number table format -- PEP 626)"
+    },
+    {
+        "version": "Python 3.10a2",
+        "magic_number": 3432,
+        "description": "(Function annotation for MAKE_FUNCTION is changed from dict to tuple bpo-42202)"
+    },
+    {
+        "version": "Python 3.10a2",
+        "magic_number": 3433,
+        "description": "(RERAISE restores f_lasti if oparg != 0)"
+    },
+    {
+        "version": "Python 3.10a6",
+        "magic_number": 3434,
+        "description": "(PEP 634: Structural Pattern Matching)"
+    },
+    {
+        "version": "Python 3.10a7",
+        "magic_number": 3435,
+        "description": "Use instruction offsets (as opposed to byte offsets)."
+    },
+    {
+        "version": "Python 3.10b1",
+        "magic_number": 3436,
+        "description": "(Add GEN_START bytecode #43683)"
+    },
+    {
+        "version": "Python 3.10b1",
+        "magic_number": 3437,
+        "description": "(Undo making 'annotations' future by default - We like to dance among core devs!)"
+    },
+    {
+        "version": "Python 3.10b1",
+        "magic_number": 3438,
+        "description": "Safer line number table handling."
+    },
+    {
+        "version": "Python 3.10b1",
+        "magic_number": 3439,
+        "description": "(Add ROT_N)"
+    },
+    {
+        "version": "Python 3.11a1",
+        "magic_number": 3450,
+        "description": "Use exception table for unwinding (\"zero cost\" exception handling)"
+    },
+    {
+        "version": "Python 3.11a1",
+        "magic_number": 3451,
+        "description": "(Add CALL_METHOD_KW)"
+    },
+    {
+        "version": "Python 3.11a1",
+        "magic_number": 3452,
+        "description": "(drop nlocals from marshaled code objects)"
+    },
+    {
+        "version": "Python 3.11a1",
+        "magic_number": 3453,
+        "description": "(add co_fastlocalnames and co_fastlocalkinds)"
+    },
+    {
+        "version": "Python 3.11a1",
+        "magic_number": 3454,
+        "description": "(compute cell offsets relative to locals bpo-43693)"
+    },
+    {
+        "version": "Python 3.11a1",
+        "magic_number": 3455,
+        "description": "(add MAKE_CELL bpo-43693)"
+    },
+    {
+        "version": "Python 3.11a1",
+        "magic_number": 3456,
+        "description": "(interleave cell args bpo-43693)"
+    },
+    {
+        "version": "Python 3.11a1",
+        "magic_number": 3457,
+        "description": "(Change localsplus to a bytes object bpo-43693)"
+    },
+    {
+        "version": "Python 3.11a1",
+        "magic_number": 3458,
+        "description": "(imported objects now don't use LOAD_METHOD/CALL_METHOD)"
+    },
+    {
+        "version": "Python 3.11a1",
+        "magic_number": 3459,
+        "description": "(PEP 657: add end line numbers and column offsets for instructions)"
+    },
+    {
+        "version": "Python 3.11a1",
+        "magic_number": 3460,
+        "description": "(Add co_qualname field to PyCodeObject bpo-44530)"
+    },
+    {
+        "version": "Python 3.11a1",
+        "magic_number": 3461,
+        "description": "(JUMP_ABSOLUTE must jump backwards)"
+    },
+    {
+        "version": "Python 3.11a2",
+        "magic_number": 3462,
+        "description": "(bpo-44511: remove COPY_DICT_WITHOUT_KEYS, change MATCH_CLASS and MATCH_KEYS, and add COPY)"
+    },
+    {
+        "version": "Python 3.11a3",
+        "magic_number": 3463,
+        "description": "(bpo-45711: JUMP_IF_NOT_EXC_MATCH no longer pops the active exception)"
+    },
+    {
+        "version": "Python 3.11a3",
+        "magic_number": 3464,
+        "description": "(bpo-45636: Merge numeric BINARY_*INPLACE_* into BINARY_OP)"
+    },
+    {
+        "version": "Python 3.11a3",
+        "magic_number": 3465,
+        "description": "(Add COPY_FREE_VARS opcode)"
+    },
+    {
+        "version": "Python 3.11a4",
+        "magic_number": 3466,
+        "description": "(bpo-45292: PEP-654 except*)"
+    },
+    {
+        "version": "Python 3.11a4",
+        "magic_number": 3467,
+        "description": "(Change CALL_xxx opcodes)"
+    },
+    {
+        "version": "Python 3.11a4",
+        "magic_number": 3468,
+        "description": "(Add SEND opcode)"
+    },
+    {
+        "version": "Python 3.11a4",
+        "magic_number": 3469,
+        "description": "(bpo-45711: remove type, traceback from exc_info)"
+    },
+    {
+        "version": "Python 3.11a4",
+        "magic_number": 3470,
+        "description": "(bpo-46221: PREP_RERAISE_STAR no longer pushes lasti)"
+    },
+    {
+        "version": "Python 3.11a4",
+        "magic_number": 3471,
+        "description": "(bpo-46202: remove pop POP_EXCEPT_AND_RERAISE)"
+    },
+    {
+        "version": "Python 3.11a4",
+        "magic_number": 3472,
+        "description": "(bpo-46009: replace GEN_START with POP_TOP)"
+    },
+    {
+        "version": "Python 3.11a4",
+        "magic_number": 3473,
+        "description": "(Add POP_JUMP_IF_NOT_NONE/POP_JUMP_IF_NONE opcodes)"
+    },
+    {
+        "version": "Python 3.11a4",
+        "magic_number": 3474,
+        "description": "(Add RESUME opcode)"
+    },
+    {
+        "version": "Python 3.11a5",
+        "magic_number": 3475,
+        "description": "(Add RETURN_GENERATOR opcode)"
+    },
+    {
+        "version": "Python 3.11a5",
+        "magic_number": 3476,
+        "description": "(Add ASYNC_GEN_WRAP opcode)"
+    },
+    {
+        "version": "Python 3.11a5",
+        "magic_number": 3477,
+        "description": "(Replace DUP_TOP/DUP_TOP_TWO with COPY and ROT_TWO/ROT_THREE/ROT_FOUR/ROT_N with SWAP)"
+    },
+    {
+        "version": "Python 3.11a5",
+        "magic_number": 3478,
+        "description": "(New CALL opcodes)"
+    },
+    {
+        "version": "Python 3.11a5",
+        "magic_number": 3479,
+        "description": "(Add PUSH_NULL opcode)"
+    },
+    {
+        "version": "Python 3.11a5",
+        "magic_number": 3480,
+        "description": "(New CALL opcodes, second iteration)"
+    },
+    {
+        "version": "Python 3.11a5",
+        "magic_number": 3481,
+        "description": "(Use inline cache for BINARY_OP)"
+    },
+    {
+        "version": "Python 3.11a5",
+        "magic_number": 3482,
+        "description": "(Use inline caching for UNPACK_SEQUENCE and LOAD_GLOBAL)"
+    },
+    {
+        "version": "Python 3.11a5",
+        "magic_number": 3483,
+        "description": "(Use inline caching for COMPARE_OP and BINARY_SUBSCR)"
+    },
+    {
+        "version": "Python 3.11a5",
+        "magic_number": 3484,
+        "description": "(Use inline caching for LOAD_ATTR, LOAD_METHOD, and STORE_ATTR)"
+    },
+    {
+        "version": "Python 3.11a5",
+        "magic_number": 3485,
+        "description": "(Add an oparg to GET_AWAITABLE)"
+    },
+    {
+        "version": "Python 3.11a6",
+        "magic_number": 3486,
+        "description": "(Use inline caching for PRECALL and CALL)"
+    },
+    {
+        "version": "Python 3.11a6",
+        "magic_number": 3487,
+        "description": "(Remove the adaptive \"oparg counter\" mechanism)"
+    },
+    {
+        "version": "Python 3.11a6",
+        "magic_number": 3488,
+        "description": "(LOAD_GLOBAL can push additional NULL)"
+    },
+    {
+        "version": "Python 3.11a6",
+        "magic_number": 3489,
+        "description": "(Add JUMP_BACKWARD, remove JUMP_ABSOLUTE)"
+    },
+    {
+        "version": "Python 3.11a6",
+        "magic_number": 3490,
+        "description": "(remove JUMP_IF_NOT_EXC_MATCH, add CHECK_EXC_MATCH)"
+    },
+    {
+        "version": "Python 3.11a6",
+        "magic_number": 3491,
+        "description": "(remove JUMP_IF_NOT_EG_MATCH, add CHECK_EG_MATCH, add JUMP_BACKWARD_NO_INTERRUPT, make JUMP_NO_INTERRUPT virtual)"
+    },
+    {
+        "version": "Python 3.11a7",
+        "magic_number": 3492,
+        "description": "(make POP_JUMP_IF_NONE/NOT_NONE/TRUE/FALSE relative)"
+    },
+    {
+        "version": "Python 3.11a7",
+        "magic_number": 3493,
+        "description": "(Make JUMP_IF_TRUE_OR_POP/JUMP_IF_FALSE_OR_POP relative)"
+    },
+    {
+        "version": "Python 3.11a7",
+        "magic_number": 3494,
+        "description": "(New location info table)"
+    },
+    {
+        "version": "Python 3.11b4",
+        "magic_number": 3495,
+        "description": "(Set line number of module's RESUME instr to 0 per PEP 626)"
+    },
+    {
+        "version": "Python 3.12a1",
+        "magic_number": 3500,
+        "description": "(Remove PRECALL opcode)"
+    },
+    {
+        "version": "Python 3.12a1",
+        "magic_number": 3501,
+        "description": "(YIELD_VALUE oparg == stack_depth)"
+    },
+    {
+        "version": "Python 3.12a1",
+        "magic_number": 3502,
+        "description": "(LOAD_FAST_CHECK, no NULL-check in LOAD_FAST)"
+    },
+    {
+        "version": "Python 3.12a1",
+        "magic_number": 3503,
+        "description": "(Shrink LOAD_METHOD cache)"
+    },
+    {
+        "version": "Python 3.12a1",
+        "magic_number": 3504,
+        "description": "(Merge LOAD_METHOD back into LOAD_ATTR)"
+    },
+    {
+        "version": "Python 3.12a1",
+        "magic_number": 3505,
+        "description": "(Specialization/Cache for FOR_ITER)"
+    },
+    {
+        "version": "Python 3.12a1",
+        "magic_number": 3506,
+        "description": "(Add BINARY_SLICE and STORE_SLICE instructions)"
+    },
+    {
+        "version": "Python 3.12a1",
+        "magic_number": 3507,
+        "description": "(Set lineno of module's RESUME to 0)"
+    },
+    {
+        "version": "Python 3.12a1",
+        "magic_number": 3508,
+        "description": "(Add CLEANUP_THROW)"
+    },
+    {
+        "version": "Python 3.12a1",
+        "magic_number": 3509,
+        "description": "(Conditional jumps only jump forward)"
+    },
+    {
+        "version": "Python 3.12a2",
+        "magic_number": 3510,
+        "description": "(FOR_ITER leaves iterator on the stack)"
+    },
+    {
+        "version": "Python 3.12a2",
+        "magic_number": 3511,
+        "description": "(Add STOPITERATION_ERROR instruction)"
+    },
+    {
+        "version": "Python 3.12a2",
+        "magic_number": 3512,
+        "description": "(Remove all unused consts from code objects)"
+    },
+    {
+        "version": "Python 3.12a4",
+        "magic_number": 3513,
+        "description": "(Add CALL_INTRINSIC_1 instruction, removed STOPITERATION_ERROR, PRINT_EXPR, IMPORT_STAR)"
+    },
+    {
+        "version": "Python 3.12a4",
+        "magic_number": 3514,
+        "description": "(Remove ASYNC_GEN_WRAP, LIST_TO_TUPLE, and UNARY_POSITIVE)"
+    },
+    {
+        "version": "Python 3.12a5",
+        "magic_number": 3515,
+        "description": "(Embed jump mask in COMPARE_OP oparg)"
+    },
+    {
+        "version": "Python 3.12a5",
+        "magic_number": 3516,
+        "description": "(Add COMPARE_AND_BRANCH instruction)"
+    },
+    {
+        "version": "Python 3.12a5",
+        "magic_number": 3517,
+        "description": "(Change YIELD_VALUE oparg to exception block depth)"
+    },
+    {
+        "version": "Python 3.12a6",
+        "magic_number": 3518,
+        "description": "(Add RETURN_CONST instruction)"
+    },
+    {
+        "version": "Python 3.12a6",
+        "magic_number": 3519,
+        "description": "(Modify SEND instruction)"
+    },
+    {
+        "version": "Python 3.12a6",
+        "magic_number": 3520,
+        "description": "(Remove PREP_RERAISE_STAR, add CALL_INTRINSIC_2)"
+    },
+    {
+        "version": "Python 3.12a7",
+        "magic_number": 3521,
+        "description": "(Shrink the LOAD_GLOBAL caches)"
+    },
+    {
+        "version": "Python 3.12a7",
+        "magic_number": 3522,
+        "description": "(Removed JUMP_IF_FALSE_OR_POP/JUMP_IF_TRUE_OR_POP)"
+    },
+    {
+        "version": "Python 3.12a7",
+        "magic_number": 3523,
+        "description": "(Convert COMPARE_AND_BRANCH back to COMPARE_OP)"
+    },
+    {
+        "version": "Python 3.12a7",
+        "magic_number": 3524,
+        "description": "(Shrink the BINARY_SUBSCR caches)"
+    },
+    {
+        "version": "Python 3.12b1",
+        "magic_number": 3525,
+        "description": "(Shrink the CALL caches)"
+    },
+    {
+        "version": "Python 3.12b1",
+        "magic_number": 3526,
+        "description": "(Add instrumentation support)"
+    },
+    {
+        "version": "Python 3.12b1",
+        "magic_number": 3527,
+        "description": "(Add LOAD_SUPER_ATTR)"
+    },
+    {
+        "version": "Python 3.12b1",
+        "magic_number": 3528,
+        "description": "(Add LOAD_SUPER_ATTR_METHOD specialization)"
+    },
+    {
+        "version": "Python 3.12b1",
+        "magic_number": 3529,
+        "description": "(Inline list/dict/set comprehensions)"
+    },
+    {
+        "version": "Python 3.12b1",
+        "magic_number": 3530,
+        "description": "(Shrink the LOAD_SUPER_ATTR caches)"
+    },
+    {
+        "version": "Python 3.12b1",
+        "magic_number": 3531,
+        "description": "(Add PEP 695 changes)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3550,
+        "description": "(Plugin optimizer support)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3551,
+        "description": "(Compact superinstructions)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3552,
+        "description": "(Remove LOAD_FAST__LOAD_CONST and LOAD_CONST__LOAD_FAST)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3553,
+        "description": "(Add SET_FUNCTION_ATTRIBUTE)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3554,
+        "description": "(more efficient bytecodes for f-strings)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3555,
+        "description": "(generate specialized opcodes metadata from bytecodes.c)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3556,
+        "description": "(Convert LOAD_CLOSURE to a pseudo-op)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3557,
+        "description": "(Make the conversion to boolean in jumps explicit)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3558,
+        "description": "(Reorder the stack items for CALL)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3559,
+        "description": "(Generate opcode IDs from bytecodes.c)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3560,
+        "description": "(Add RESUME_CHECK instruction)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3561,
+        "description": "(Add cache entry to branch instructions)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3562,
+        "description": "(Assign opcode IDs for internal ops in separate range)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3563,
+        "description": "(Add CALL_KW and remove KW_NAMES)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3564,
+        "description": "(Removed oparg from YIELD_VALUE, changed oparg values of RESUME)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3565,
+        "description": "(Oparg of YIELD_VALUE indicates whether it is in a yield-from)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3566,
+        "description": "(Emit JUMP_NO_INTERRUPT instead of JUMP for non-loop no-lineno cases)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3567,
+        "description": "(Reimplement line number propagation by the compiler)"
+    },
+    {
+        "version": "Python 3.13a1",
+        "magic_number": 3568,
+        "description": "(Change semantics of END_FOR)"
+    },
+    {
+        "version": "Python 3.13a5",
+        "magic_number": 3569,
+        "description": "(Specialize CONTAINS_OP)"
+    },
+    {
+        "version": "Python 3.13a6",
+        "magic_number": 3570,
+        "description": "(Add __firstlineno__ class attribute)"
+    },
+    {
+        "version": "Python 3.13b1",
+        "magic_number": 3571,
+        "description": "(Fix miscompilation of private names in generic classes)"
+    },
+    {
+        "version": "Python 3.14a1",
+        "magic_number": 3600,
+        "description": "(Add LOAD_COMMON_CONSTANT)"
+    },
+    {
+        "version": "Python 3.14a1",
+        "magic_number": 3601,
+        "description": "(Fix miscompilation of private names in generic classes)"
+    },
+    {
+        "version": "Python 3.14a1",
+        "magic_number": 3602,
+        "description": "(Add LOAD_SPECIAL. Remove BEFORE_WITH and BEFORE_ASYNC_WITH)"
+    },
+    {
+        "version": "Python 3.14a1",
+        "magic_number": 3603,
+        "description": "(Remove BUILD_CONST_KEY_MAP)"
+    },
+    {
+        "version": "Python 3.14a1",
+        "magic_number": 3604,
+        "description": "(Do not duplicate test at end of while statements)"
+    },
+    {
+        "version": "Python 3.14a1",
+        "magic_number": 3605,
+        "description": "(Move ENTER_EXECUTOR to opcode 255)"
+    },
+    {
+        "version": "Python 3.14a1",
+        "magic_number": 3606,
+        "description": "(Specialize CALL_KW)"
+    },
+    {
+        "version": "Python 3.14a1",
+        "magic_number": 3607,
+        "description": "(Add pseudo instructions JUMP_IF_TRUE/FALSE)"
+    },
+    {
+        "version": "Python 3.14a1",
+        "magic_number": 3608,
+        "description": "(Add support for slices)"
+    },
+    {
+        "version": "Python 3.14a2",
+        "magic_number": 3609,
+        "description": "(Add LOAD_SMALL_INT and LOAD_CONST_IMMORTAL instructions, remove RETURN_CONST)"
+    },
+    {
+        "version": "Python 3.14a4",
+        "magic_number": 3610,
+        "description": "(Add VALUE_WITH_FAKE_GLOBALS format to annotationlib)"
+    },
+    {
+        "version": "Python 3.14a4",
+        "magic_number": 3611,
+        "description": "(Add NOT_TAKEN instruction)"
+    },
+    {
+        "version": "Python 3.14a4",
+        "magic_number": 3612,
+        "description": "(Add POP_ITER and INSTRUMENTED_POP_ITER)"
+    },
+    {
+        "version": "Python 3.14a4",
+        "magic_number": 3613,
+        "description": "(Add LOAD_CONST_MORTAL instruction)"
+    },
+    {
+        "version": "Python 3.14a5",
+        "magic_number": 3614,
+        "description": "(Add BINARY_OP_EXTEND)"
+    },
+    {
+        "version": "Python 3.14a5",
+        "magic_number": 3615,
+        "description": "(CALL_FUNCTION_EX always take a kwargs argument)"
+    },
+    {
+        "version": "Python 3.14a5",
+        "magic_number": 3616,
+        "description": "(Remove BINARY_SUBSCR and family. Make them BINARY_OPs)"
+    },
+    {
+        "version": "Python 3.14a6",
+        "magic_number": 3617,
+        "description": "(Branch monitoring for async for loops)"
+    },
+    {
+        "version": "Python 3.14a6",
+        "magic_number": 3618,
+        "description": "(Add oparg to END_ASYNC_FOR)"
+    },
+    {
+        "version": "Python 3.14a6",
+        "magic_number": 3619,
+        "description": "(Renumber RESUME opcode from 149 to 128)"
+    },
+    {
+        "version": "Python 3.14a6",
+        "magic_number": 3620,
+        "description": "(Optimize bytecode for all/any/tuple called on a genexp)"
+    },
+    {
+        "version": "Python 3.14a7",
+        "magic_number": 3621,
+        "description": "(Optimize LOAD_FAST opcodes into LOAD_FAST_BORROW)"
+    },
+    {
+        "version": "Python 3.14a7",
+        "magic_number": 3622,
+        "description": "(Store annotations in different class dict keys)"
+    },
+    {
+        "version": "Python 3.14a7",
+        "magic_number": 3623,
+        "description": "(Add BUILD_INTERPOLATION & BUILD_TEMPLATE opcodes)"
+    },
+    {
+        "version": "Python 3.14b1",
+        "magic_number": 3624,
+        "description": "(Don't optimize LOAD_FAST when local is killed by DELETE_FAST)"
+    },
+    {
+        "version": "Python 3.14b3",
+        "magic_number": 3625,
+        "description": "(Fix handling of opcodes that may leave operands on the stack when optimizing LOAD_FAST)"
+    },
+    {
+        "version": "Python 3.14rc2",
+        "magic_number": 3626,
+        "description": "(Fix missing exception handlers in logical expression)"
+    },
+    {
+        "version": "Python 3.14rc3",
+        "magic_number": 3627,
+        "description": "(Fix miscompilation of some module-level annotations)"
+    },
+    {
+        "version": "Python 3.15a0",
+        "magic_number": 3650,
+        "description": "(Initial version)"
+    },
+    {
+        "version": "Python 3.15a1",
+        "magic_number": 3651,
+        "description": "(Simplify LOAD_CONST)"
+    },
+    {
+        "version": "Python 3.15a1",
+        "magic_number": 3652,
+        "description": "(Virtual iterators)"
+    },
+    {
+        "version": "Python 3.15a1",
+        "magic_number": 3653,
+        "description": "(Fix handling of opcodes that may leave operands on the stack when optimizing LOAD_FAST)"
+    },
+    {
+        "version": "Python 3.15a1",
+        "magic_number": 3654,
+        "description": "(Fix missing exception handlers in logical expression)"
+    },
+    {
+        "version": "Python 3.15a1",
+        "magic_number": 3655,
+        "description": "(Fix miscompilation of some module-level annotations)"
+    },
+    {
+        "version": "Python 3.15a2",
+        "magic_number": 3656,
+        "description": "(Add TRACE_RECORD instruction, for platforms with switch based interpreter)"
+    },
+    {
+        "version": "Python 3.15a4",
+        "magic_number": 3657,
+        "description": "(Add BINARY_OP_SUBSCR_USTR_INT)"
+    },
+    {
+        "version": "Python 3.15a4",
+        "magic_number": 3658,
+        "description": "(Optimize bytecode for list/set called on genexp)"
+    },
+    {
+        "version": "Python 3.15a4",
+        "magic_number": 3659,
+        "description": "(Add CALL_FUNCTION_EX specialization)"
+    },
+    {
+        "version": "Python 3.15a4",
+        "magic_number": 3660,
+        "description": "(Change generator preamble code)"
+    }
+]
