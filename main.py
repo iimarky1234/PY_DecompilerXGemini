@@ -68,7 +68,6 @@ if __name__ == '__main__':
     functions = PYC_PY(FILE, ARGS.api, ARGS.model)
     
     PYTHON_VERSION = functions.print_version()
-    breakpoint()
     if platform.python_version()[:-2] in PYTHON_VERSION:
         if "Assembled" not in os.listdir(): os.mkdir("Assembled")
         functions.disassemble()
