@@ -74,7 +74,8 @@ if __name__ == '__main__':
     if platform.python_version()[:-2] in PYTHON_VERSION['version']:
         if "Assembled" not in os.listdir(): os.mkdir("Assembled")
         functions.disassemble()
-        print(PYTHON_VERSION)
+        print(f"Found version: PYTHON_VERSION['version']")
+        print("Waiting for Gemini response...")
         print(functions.GEMINI())
     else:
         print("[X] Can't detect Python version")
