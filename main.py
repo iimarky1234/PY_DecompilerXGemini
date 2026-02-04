@@ -11,13 +11,11 @@ class PYC_PY:
     def print_version(self):
         DATA = self.DATA
         MAGIC_NUMBER = DATA.read(4)
-        PYVER_DECIMAL = struct.unpack('<H', MAGIC_NUMBER[:2])[0]
+        PYVER_DECIMAL = str(struct.unpack('<H', MAGIC_NUMBER[:2])[0])
         file = open("Versions_magicnum.json", 'r')
         JSON_VERSIONS = json.load(file)
         file.close()
-        VERSIONS_RESULT = []
-        for version in JSON_VERSIONS:
-            if PYVER_DECIMAL == version['magic_number']: VERSIONS_RESULT.append(version)
+        VERSIONS_RESULT = JSON_VERSIONS['Python_versions'][PYVER_DECIMAL]
         return VERSIONS_RESULT
 
     def disassemble(self):
@@ -34,7 +32,7 @@ class PYC_PY:
         assembly = file_assembly.read()
         file_assembly.close()
         prompt = f"""
-        Info: {PYTHON_VERSION['version']}
+        Info: {PYTHON_VERSION}
         Decompile this python bytecode. Don't add any comments.
         Only return the decompiled code, no need explaination.
         """
@@ -69,12 +67,12 @@ if __name__ == '__main__':
     ASSEMBLY_FILEPATH = "Assembled/" + os.path.basename(ARGS.filename)[:-4] + ".assembly"
     functions = PYC_PY(FILE, ARGS.api, ARGS.model)
     
-    PYTHON_VERSION = functions.print_version()[0]
-
-    if platform.python_version()[:-2] in PYTHON_VERSION['version']:
+    PYTHON_VERSION = functions.print_version()
+    breakpoint()
+    if platform.python_version()[:-2] in PYTHON_VERSION:
         if "Assembled" not in os.listdir(): os.mkdir("Assembled")
         functions.disassemble()
-        print(f"Found version: PYTHON_VERSION['version']")
+        print(f"Found version: {PYTHON_VERSION}")
         print("Waiting for Gemini response...")
         print(functions.GEMINI())
     else:
