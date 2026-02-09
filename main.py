@@ -35,8 +35,8 @@ class PYC_PY:
         client = genai.Client(api_key=self.API_KEY)
         prompt = f"""
         Info: {PYTHON_VERSION}
-        Decompile this python bytecode. Don't add any comments.
-        Only return the decompiled code, no need explaination.
+        TASK: Decompile this python bytecode. Don't add any comments to the code.
+        WARNING: ONLY RETURN THE DECOMPILED CODE. NO NEED ANY EXPLAINATION
         """
         print("[*] Uploading files")
         assembly = client.files.upload(file=ASSEMBLY_FILEPATH)
@@ -62,6 +62,7 @@ if __name__ == '__main__':
     parser.add_argument('filename', help = "Define the path to file.pyc needed to be decompiled")
     parser.add_argument('--api', required = True, help = "Define the GEMINI API Key")
     parser.add_argument('--model',default = "gemini-3-flash-preview", help = "Define Gemini model (Default: gemini-3-flash-preview). For more info https://ai.google.dev/gemini-api/docs/models")
+    parser.add_argument('--output', help = "Define the output path of the decompiled python code")
     ARGS = parser.parse_args()
 
     FILE = open(ARGS.filename, 'rb')
@@ -73,6 +74,13 @@ if __name__ == '__main__':
     if "Assembled" not in os.listdir(): os.mkdir("Assembled")
     print("[*] Disassembling...")
     functions.disassemble()
-    print(functions.GEMINI())
+    RESULT = functions.GEMINI()
+    if ARGS.output:
+        FILE_OUTPUT = open(ARGS.output,'w')
+        FILE_OUTPUT.write(RESULT)
+        FILE_OUTPUT.close()
+        print(f"[+] Created {ARGS.output}")
+    else:
+        print(RESULT)
     FILE.close()
         
