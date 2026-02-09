@@ -21,6 +21,7 @@ python main.py <filename.pyc> --api <YOUR_GEMINI_API_KEY>
 *   `filename`: Path to the `.pyc` file to be decompiled.
 *   `--api`: Your Gemini API Key.
 *   `--model`: (Optional) The Gemini model to use. Defaults to `gemini-3-flash-preview`. For more info visit [https://ai.google.dev/gemini-api/docs/models](https://ai.google.dev/gemini-api/docs/models).
+*   `--output`: Define the output path of the decompiled python code
 
 ## Dependencies
 
