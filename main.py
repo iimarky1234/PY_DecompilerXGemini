@@ -24,30 +24,26 @@ class PYC_PY:
         create_newfile = open(ASSEMBLY_FILEPATH, 'w')
         dis.dis(LOAD_MARSHAL, file = create_newfile)
         create_newfile.close()
+        print("[+] Finished disassembling")
 
         
     def GEMINI(self):
         client = genai.Client(api_key=self.API_KEY)
-        file_assembly = open(ASSEMBLY_FILEPATH,'rb')
-        assembly = file_assembly.read()
-        file_assembly.close()
         prompt = f"""
         Info: {PYTHON_VERSION}
         Decompile this python bytecode. Don't add any comments.
         Only return the decompiled code, no need explaination.
         """
+        print("[*] Uploading files")
+        assembly = client.files.upload(file=ASSEMBLY_FILEPATH)
+        print(f"[*] Waiting for {self.MODEL} response...")
         response = client.models.generate_content(
           model=self.MODEL,
-          contents=[
-              types.Part.from_bytes(
-                data=assembly,
-                mime_type='text/plain',
-              ),
-              prompt
-          ]
+          contents=[assembly, prompt],
         )
         return response.text
-    
+
+        
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         prog = 'PY_DecompilerXGemini',
@@ -59,21 +55,27 @@ if __name__ == '__main__':
         epilog = 'The results from GEMINI is not always correct. Use with caution'
     )
 
-    parser.add_argument('filename',help = "Define the path to file.pyc needed to be decompiled")
+    parser.add_argument('filename', help = "Define the path to file.pyc needed to be decompiled")
     parser.add_argument('--api', required = True, help = "Define the GEMINI API Key")
     parser.add_argument('--model',default = "gemini-3-flash-preview", help = "Define Gemini model (Default: gemini-3-flash-preview). For more info https://ai.google.dev/gemini-api/docs/models")
     ARGS = parser.parse_args()
+
     FILE = open(ARGS.filename, 'rb')
-    ASSEMBLY_FILEPATH = "Assembled/" + os.path.basename(ARGS.filename)[:-4] + ".assembly"
+    ASSEMBLY_FILEPATH = "Assembled/" + os.path.basename(ARGS.filename)[:-4] + "_assembly.txt"
     functions = PYC_PY(FILE, ARGS.api, ARGS.model)
     
     PYTHON_VERSION = functions.print_version()
-    if platform.python_version()[:-2] in PYTHON_VERSION:
+    print(f"[+] Found version: {PYTHON_VERSION}")
+    PYTHON_VERSION_RUNTIME = platform.python_version()[:-2]
+    
+    if PYTHON_VERSION_RUNTIME in PYTHON_VERSION:
+        print(f"[+] Python {PYTHON_VERSION_RUNTIME} in runtime matches with .pyc")
+        print("[*] Disassembling...")
         if "Assembled" not in os.listdir(): os.mkdir("Assembled")
         functions.disassemble()
-        print(f"Found version: {PYTHON_VERSION}")
-        print("Waiting for Gemini response...")
+        
         print(functions.GEMINI())
     else:
-        print("[X] Can't detect Python version")
+        print(f"[X] Your Python version doesn't match with the .pyc {PYTHON_VERSION}. Recommend using pyenv")
     FILE.close()
+        
