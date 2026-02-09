@@ -19,12 +19,16 @@ class PYC_PY:
         return VERSIONS_RESULT
 
     def disassemble(self):
-        self.DATA.seek(16)
-        LOAD_MARSHAL = marshal.load(self.DATA)
-        create_newfile = open(ASSEMBLY_FILEPATH, 'w')
-        dis.dis(LOAD_MARSHAL, file = create_newfile)
-        create_newfile.close()
-        print("[+] Finished disassembling")
+        try:
+            self.DATA.seek(16)
+            LOAD_MARSHAL = marshal.load(self.DATA)
+            create_newfile = open(ASSEMBLY_FILEPATH, 'w')
+            dis.dis(LOAD_MARSHAL, file = create_newfile)
+            create_newfile.close()
+            print("[+] Finished disassembling")
+        except ValueError:
+            print(f"[X] Your Python version {platform.python_version()} doesn't match with the .pyc {PYTHON_VERSION}. Recommend using pyenv")
+            exit(1)
 
         
     def GEMINI(self):
@@ -66,16 +70,9 @@ if __name__ == '__main__':
     
     PYTHON_VERSION = functions.print_version()
     print(f"[+] Found version: {PYTHON_VERSION}")
-    PYTHON_VERSION_RUNTIME = platform.python_version()[:-2]
-    
-    if PYTHON_VERSION_RUNTIME in PYTHON_VERSION:
-        print(f"[+] Python {PYTHON_VERSION_RUNTIME} in runtime matches with .pyc")
-        print("[*] Disassembling...")
-        if "Assembled" not in os.listdir(): os.mkdir("Assembled")
-        functions.disassemble()
-        
-        print(functions.GEMINI())
-    else:
-        print(f"[X] Your Python version doesn't match with the .pyc {PYTHON_VERSION}. Recommend using pyenv")
+    if "Assembled" not in os.listdir(): os.mkdir("Assembled")
+    print("[*] Disassembling...")
+    functions.disassemble()
+    print(functions.GEMINI())
     FILE.close()
         
